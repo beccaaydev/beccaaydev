@@ -45,38 +45,33 @@ public class Rebeca {
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
 
-<td valign="top" width="33%" style="padding: 0 16px 0 0;">
+<td valign="top" width="33%" align="left">
 
 ### Frontend
 
-<div align="center">  
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap&perline=4" />
-</div>
+<img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap&perline=4" />
 
 </td>
 
-<td valign="top" width="33%" style="padding: 0 16px;">
+<td valign="top" width="33%" align="center">
 
 ### Languages
 
-<div align="center">  
-  <img src="https://skillicons.dev/icons?i=java,spring,ts,cs,python,js,nodejs&perline=4" />
-</div>
+<img src="https://skillicons.dev/icons?i=java,spring,ts,cs,python,js,nodejs&perline=4" />
 
 </td>
 
-<td valign="top" width="33%" style="padding: 0 0 0 16px;">
+<td valign="top" width="33%" align="right">
 
 ### Others
 
-<div align="center">  
-  <img src="https://skillicons.dev/icons?i=git,github,docker,jenkins,postman,figma,vscode,idea,postgres&perline=4" />
-</div>
+<img src="https://skillicons.dev/icons?i=git,github,docker,jenkins,postman,figma,vscode,idea,postgres&perline=4" />
 
 </td>
 
 </tr>
 </table>
+
 
 ---
 
