@@ -51,18 +51,25 @@ public class Becca {
 
 ---
 
-## 📊 GitHub Stats
+### 📊 Estatísticas
 
-<div align="center">
+<p>
+  <img 
+    align="left" 
+    alt="GitHub Stats" 
+    height="200" 
+    style="padding-right: 10px;" 
+    src="https://github-readme-stats.vercel.app/api?username=Beccaaydev&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
+  />
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=beccaaydev&show_icons=true&theme=radical&include_all_commits=true&count_private=true&border_color=FF2D78&title_color=FF2D78&icon_color=FF2D78"/>
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=beccaaydev&layout=compact&langs_count=8&theme=radical&border_color=FF2D78&title_color=FF2D78"/>
+<img 
+      align="left" 
+      alt="GitHub Stats" 
+      height="200" 
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=Beccaaydev&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" 
+  />
 
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=beccaaydev&theme=radical&border=FF2D78&ring=FF2D78&fire=FF2D78&currStreakLabel=FF2D78" />
-</div>
+</p>
 
 ---
 
