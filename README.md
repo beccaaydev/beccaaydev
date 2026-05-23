@@ -44,7 +44,7 @@ public class Rebeca {
 <table border="0" cellspacing="2" cellpadding="2" width="100%">
 <tr>
 
-<td valign="top" width="33%" style="padding: 2 16px 0 0;">
+<td valign="top" width="33%" style="padding: 8 16px 0 0;">
 
 
 ### Frontend  
@@ -70,7 +70,7 @@ public class Rebeca {
 ### Others  
 <a href="https://github.com/euelisee">
 <div align="center">  
-  <img src="https://skillicons.dev/icons?i=git,github,docker,postman,oracle,figma,vscode,idea&perline=4" />
+  <img src="https://skillicons.dev/icons?i=git,github,docker,postman,figma,vscode,idea&perline=4" />
 </div>
 </a>
 
