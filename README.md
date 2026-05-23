@@ -1,10 +1,13 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FF2D78&height=200&section=header&text=Hey%2C%20I'm%20Becca!%20👋&fontSize=45&fontColor=ffffff&fontAlignY=38&desc=Back-end%20Developer%20%7C%20Java%20%26%20Spring%20Boot&descAlignY=58&descColor=ffe0ec" width="100%"/>
+# Hey, I'm Becca! 👋
+### Back-end Developer | Java · Spring Boot · Python
+
+![divider](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
 
 </div>
 
----
+<br/>
 
 ## 🧑‍💻 About Me
 
@@ -21,6 +24,8 @@ public class Becca {
     }
 }
 ```
+
+<br/>
 
 ---
 
@@ -64,14 +69,6 @@ public class Becca {
 
 ---
 
-## 🐍 Contribution Snake
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/beccaaydev/beccaaydev/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
-</div>
-
----
-
 ## 📬 Let's Connect
 
 <div align="center">
@@ -88,6 +85,8 @@ public class Becca {
   <img src="https://komarev.com/ghpvc/?username=beccaaydev&color=FF2D78&style=for-the-badge&label=Profile+Views"/>
 </div>
 
+<br/>
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF2D78&height=100&section=footer" width="100%"/>
+  <sub>Made with ❤️ by Becca</sub>
 </div>
