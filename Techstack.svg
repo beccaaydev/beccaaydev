@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 240" width="860" height="240">
+  <defs>
+    <style>
+      .col-title { font-family:'Segoe UI',Arial,sans-serif; font-size:13px; font-weight:700; fill:#c084fc; }
+    </style>
+  </defs>
+
+  <rect width="860" height="240" fill="#0f0f1a" rx="14"/>
+
+  <!-- ── FRONTEND ── -->
+  <text x="18" y="28" class="col-title">Frontend</text>
+
+  <!-- HTML5 -->
+  <rect x="18" y="38" width="52" height="52" rx="12" fill="#1e1e35"/>
+  <g transform="translate(29,48) scale(0.6)">
+    <path d="M0 0l4.5 50.4L24 56l19.4-5.6L48 0H0z" fill="#e44d26"/>
+    <path d="M24 52.1l15.7-4.4 3.9-43.3H24v47.7z" fill="#f16529"/>
+    <path d="M24 20.7H15.8l-.6-6.5H24V8H8.8l1.6 17.2h13.6v5.5zM24 37.5l-.1.1-6.6-1.8-.4-4.8H11.2l.8 9.5 12 3.3 .1-.1V37.5z" fill="#ebebeb"/>
+    <path d="M24 20.7v5.5h7.7l-.7 8.3-7 1.9v6l12-3.3.1-.8 1.4-15.7H24zM24 8v6.2h14.7l.5-6.2H24z" fill="#fff"/>
+  </g>
+
+  <!-- CSS3 -->
+  <rect x="78" y="38" width="52" height="52" rx="12" fill="#1e1e35"/>
+  <g transform="translate(89,48) scale(0.6)">
+    <path d="M0 0l4.5 50.4L24 56l19.4-5.6L48 0H0z" fill="#1572b6"/>
+    <path d="M24 52.1l15.7-4.4 3.9-43.3H24v47.7z" fill="#33a9dc"/>
+    <path d="M24 20.7H14.6l.6 6.5H24v-6.5zM24 8H8.4l.6 6.2H24V8zM24 37.3v-6l-6.3-1.7-.4-4.4H11.6l.8 8.9 11.7 3.2z" fill="#ebebeb"/>
+    <path d="M24 20.7v6.5h8.7l-.8 9.1-7.9 2.1v6.2l12.1-3.4 .9-9.8.5-4.8.4-5.9H24zM24 8v6.2h14.7l.4-6.2H24z" fill="#fff"/>
+  </g>
+
+  <!-- JavaScript -->
+  <rect x="138" y="38" width="52" height="52" rx="12" fill="#f7df1e"/>
+  <g transform="translate(149,48) scale(0.6)">
+    <path d="M0 0h52v52H0z" fill="#f7df1e"/>
+    <path d="M36.2 36.2c.7 1.2 1.7 2 3.4 2 1.4 0 2.3-.7 2.3-1.7 0-1.2-.9-1.6-2.5-2.3l-.9-.4c-2.5-1-4.1-2.4-4.1-5.1 0-2.6 1.9-4.5 5-4.5 2.2 0 3.7.8 4.8 2.8l-2.6 1.7c-.6-1-1.2-1.4-2.2-1.4-1 0-1.6.6-1.6 1.4 0 1 .6 1.4 2.1 2l.9.4c2.9 1.2 4.6 2.5 4.6 5.4 0 3.1-2.4 4.8-5.6 4.8-3.1 0-5.2-1.5-6.1-3.5l2.5-1.6zM20.8 36.6c.5.9 1 1.7 2.1 1.7.7 0 1.5-.4 1.5-2V24.6h3.3v11.7c0 3.3-1.9 4.8-4.7 4.8-2.5 0-4-1.3-4.7-2.9l2.5-1.6z" fill="#000"/>
+  </g>
+
+  <!-- Bootstrap -->
+  <rect x="198" y="38" width="52" height="52" rx="12" fill="#7952b3"/>
+  <g transform="translate(213,50) scale(1.8)">
+    <path d="M6.375 7.125V4.658H8.08c.136 0 .26.023.375.068a.893.893 0 0 1 .29.19.855.855 0 0 1 .18.28.867.867 0 0 1 .063.328c0 .353-.109.626-.327.817-.218.191-.518.287-.898.287H6.375zM4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4H4zm1.06 12V3.545h3.399c.75 0 1.36.2 1.828.6.469.401.703.943.703 1.628 0 .498-.158.944-.475 1.34a2.27 2.27 0 0 1-1.233.786v.049c.52.065.96.286 1.32.665.36.38.54.85.54 1.413 0 .778-.24 1.38-.72 1.806-.478.428-1.133.641-1.963.641H5.062z" fill="white"/>
+    <path d="M6.375 9.TB V12h1.828c.467 0 .823-.121 1.066-.364.244-.244.366-.583.366-1.015 0-.438-.12-.778-.36-1.022-.239-.243-.593-.365-1.063-.365H6.375z" fill="white"/>
+  </g>
+
+  <!-- ── LANGUAGES ── -->
+  <text x="296" y="28" class="col-title">Languages</text>
+
+  <!-- Java -->
+  <rect x="296" y="38" width="52" height="52" rx="12" fill="#1e1e35"/>
+  <g transform="translate(308,44) scale(0.55)">
+    <path d="M17.3 27.1S14.3 28.8 19 29.3c5.6.6 8.5.5 14.7-.5 0 0 1.6 1 3.9 1.9-13.9 5.9-31.4-.3-20.3-3.6z" fill="#f89820"/>
+    <path d="M15.6 23.3s-3.3 2.5 1.7 3c7.1.7 12.7.8 22.4-.6 0 0 1.1.9 2.8 1.5-19.9 5.8-42 .5-26.9-3.9z" fill="#f89820"/>
+    <path d="M29.2 16.8v-3.8l-9.3 9.3c-2.5 2.3-1.1 3.5-1.1 3.5s9.3-9.9 10.4-9z" fill="#f89820"/>
+    <path d="M29.2 0S34.5 5.5 23.9 13.9c-8.5 6.7-1.9 10.5 0 14.8-4.9-4.5-8.5-8.4-6.1-12.1C21.3 10.8 31.5 8.7 29.2 0z" fill="#f89820"/>
+    <path d="M18.5 35.8s2.5 2 -3 3.6c-10.8 3.3-44.9 4.3-54.4.1-3.4-1.5 3-3.5 5-3.9 2.1-.4 3.3-.4 3.3-.4-3.8-2.7-24.4 5.2-10.5 7.5 38 6.1 69.3-2.8 59.6-6.9z" fill="#f89820"/>
+    <path d="M19.1 31.3s-17.9 4.3-6.3 5.8c4.9.7 14.6.5 23.7-.3 7.4-.6 14.9-2 14.9-2s-2.6 1.1-4.5 2.5c-18.3 4.8-53.6 2.6-43.4-2.4 8.5-4.3 15.6-3.6 15.6-3.6z" fill="#f89820"/>
+    <path d="M46.3 40.3c18.6-9.7 10-19 4-17.7-1.5.3-2.1.6-2.1.6s.5-.9 1.6-1.3c11.7-4.1 20.7 12.1-3.8 18.5.1 0 .2-.1.3-.1z" fill="#f89820"/>
+    <path d="M31.3 49.9S33.6 51.7 28.6 52.9C19 55.3 2.1 56 -10.3 52.6c-3.8-1-3.4-3.1-.8-4.1 2.4-1 3.7-1.1 3.7-1.1-4.3-3-27.6 5.9-11.8 8.5 42.9 7 78.2-3.2 50.5-6z" fill="#f89820"/>
+  </g>
+  <text x="322" y="82" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#f89820" text-anchor="middle">Java</text>
+
+  <!-- Spring Boot -->
+  <rect x="356" y="38" width="52" height="52" rx="12" fill="#1e1e35"/>
+  <g transform="translate(368,50) scale(1.1)">
+    <path d="M14 0C6.27 0 0 6.27 0 14s6.27 14 14 14 14-6.27 14-14S21.73 0 14 0zm6.1 20.86a8.63 8.63 0 0 1-5.6 2.03 8.7 8.7 0 0 1-8.22-5.83 8.63 8.63 0 0 1 1.89-9.18 8.7 8.7 0 0 1 12.3 0 8.65 8.65 0 0 1 1.89 9.16 8.63 8.63 0 0 1-2.26 3.82zm2.5-14.62a1.27 1.27 0 1 1 0-2.54 1.27 1.27 0 0 1 0 2.54z" fill="#6db33f"/>
+  </g>
+  <text x="382" y="86" font-family="'Segoe UI',Arial,sans-serif" font-size="9" font-weight="700" fill="#6db33f" text-anchor="middle">Spring</text>
+
+  <!-- Python -->
+  <rect x="416" y="38" width="52" height="52" rx="12" fill="#1e1e35"/>
+  <g transform="translate(428,48) scale(1.15)">
+    <path d="M14 2.5c-5.3 0-5 2.3-5 2.3v2.4h5.1v.7H6.3S3 7.5 3 12.9s2.9 5.2 2.9 5.2h1.7v-2.5s-.1-2.9 2.8-2.9h4.9s2.7.04 2.7-2.6V5.3s.4-2.8-4-2.8zM11.4 4.3c.5 0 .9.4.9.9s-.4.9-.9.9-.9-.4-.9-.9.4-.9.9-.9z" fill="#3776ab"/>
+    <path d="M14 21.5c5.3 0 5-2.3 5-2.3v-2.4h-5.1v-.7h7.8S25 16.5 25 11.1s-2.9-5.2-2.9-5.2h-1.7v2.5s.1 2.9-2.8 2.9h-4.9s-2.7-.04-2.7 2.6v4.8s-.4 2.8 4 2.8zM16.6 19.7c-.5 0-.9-.4-.9-.9s.4-.9.9-.9.9.4.9.9-.4.9-.9.9z" fill="#ffd43b"/>
+  </g>
+  <text x="442" y="86" font-family="'Segoe UI',Arial,sans-serif" font-size="9" font-weight="700" fill="#3776ab" text-anchor="middle">Python</text>
+
+  <!-- JavaScript -->
+  <rect x="476" y="38" width="52" height="52" rx="12" fill="#f7df1e"/>
+  <g transform="translate(487,48) scale(0.6)">
+    <path d="M0 0h52v52H0z" fill="#f7df1e"/>
+    <path d="M36.2 36.2c.7 1.2 1.7 2 3.4 2 1.4 0 2.3-.7 2.3-1.7 0-1.2-.9-1.6-2.5-2.3l-.9-.4c-2.5-1-4.1-2.4-4.1-5.1 0-2.6 1.9-4.5 5-4.5 2.2 0 3.7.8 4.8 2.8l-2.6 1.7c-.6-1-1.2-1.4-2.2-1.4-1 0-1.6.6-1.6 1.4 0 1 .6 1.4 2.1 2l.9.4c2.9 1.2 4.6 2.5 4.6 5.4 0 3.1-2.4 4.8-5.6 4.8-3.1 0-5.2-1.5-6.1-3.5l2.5-1.6zM20.8 36.6c.5.9 1 1.7 2.1 1.7.7 0 1.5-.4 1.5-2V24.6h3.3v11.7c0 3.3-1.9 4.8-4.7 4.8-2.5 0-4-1.3-4.7-2.9l2.5-1.6z" fill="#000"/>
+  </g>
+  <text x="502" y="86" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="700" fill="#000000" text-anchor="middle">JS</text>
+
+  <!-- Node.js -->
+  <rect x="536" y="38" width="52" height="52" rx="12" fill="#1e1e35"/>
+  <g transform="translate(548,48) scale(1.1)">
+    <path d="M14 2L2 8.5v11L14 26l12-6.5v-11L14 2z" fill="#339933"/>
+    <text x="14" y="17" font-family="Arial" font-size="7" font-weight="700" fill="white" text-anchor="middle">node</text>
+  </g>
+  <text x="562" y="86" font-family="'Segoe UI',Arial,sans-serif" font-size="9" font-weight="700" fill="#68a063" text-anchor="middle">Node.js</text>
+
+  <!-- ── OTHERS ── -->
+  <text x="636" y="28" class="col-title">Others</text>
+
+  <!-- Git -->
+  <rect x="636" y="38" width="52" height="52" rx="12" fill="#1e1e35"/>
+  <g transform="translate(648,50) scale(1.15)">
+    <path d="M27.8 14.3L13.7.2a.7.7 0 0 0-1 0L9.8 3.1l3.5 3.5a1.7 1.7 0 0 1 2.1 2.2l3.3 3.3a1.7 1.7 0 1 1-1 .9L14.6 9.9v8.3a1.7 1.7 0 1 1-1.4 0v-8.4A1.7 1.7 0 0 1 12 7.5L8.6 4 .2 12.4a.7.7 0 0 0 0 1l14.1 14.1a.7.7 0 0 0 1 0L27.8 15.3a.7.7 0 0 0 0-1z" fill="#f05032"/>
+  </g>
+  <text x="662" y="88" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="700" fill="#f05032" text-anchor="middle">Git</text>
+
+  <!-- GitHub -->
+  <rect x="696" y="38" width="52" height="52" rx="12" fill="#1e1e35"/>
+  <g transform="translate(708,49) scale(1.15)">
+    <path d="M14 2C7.37 2 2 7.37 2 14c0 5.3 3.44 9.8 8.2 11.38.6.1.82-.26.82-.57v-2c-3.34.72-4.04-1.6-4.04-1.6-.54-1.38-1.33-1.75-1.33-1.75-1.08-.74.08-.73.08-.73 1.2.09 1.83 1.23 1.83 1.23 1.06 1.82 2.8 1.3 3.48.99.1-.77.41-1.3.75-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.11-3.18 0 0 1-.33 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.56 3.29-1.23 3.29-1.23.66 1.66.24 2.88.12 3.18.77.84 1.23 1.9 1.23 3.22 0 4.61-2.8 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.68.83.57C24.57 23.8 28 19.3 28 14c0-6.63-5.37-12-12-12z" fill="#e2e2e2"/>
+  </g>
+  <text x="722" y="88" font-family="'Segoe UI',Arial,sans-serif" font-size="9" font-weight="700" fill="#e2e2e2" text-anchor="middle">GitHub</text>
+
+  <!-- Docker -->
+  <rect x="756" y="38" width="52" height="52" rx="12" fill="#1e1e35"/>
+  <g transform="translate(766,50) scale(1.0)">
+    <path d="M31.4 13.4h-3.6v3.2h3.6v-3.2zM27 13.4h-3.6v3.2H27v-3.2zM22.5 13.4H19v3.2h3.5v-3.2zM18.2 13.4h-3.6v3.2h3.6v-3.2zM22.5 9.3H19v3.2h3.5V9.3zM27 9.3h-3.6v3.2H27V9.3zM31.4 9.3h-3.6v3.2h3.6V9.3zM22.5 5.2H19v3.2h3.5V5.2z" fill="#2496ed"/>
+    <path d="M38.3 15.6c-.8-.5-2.6-.7-4-.4-.2-1.4-1-2.6-2.5-3.6l-.8-.5-.5.8c-.7 1-1 2.4-.9 3.5-.1 0-.1.1-.2.1-.4-.2-1-.5-1.7-.5H1.5c-.4 0-.7.3-.7.7-.1 2 .3 5.2 2.1 7.5 1.5 1.9 3.7 2.9 6.6 2.9 6.3 0 10.9-2.9 13.1-8.1h1.1c1.5 0 2.5-.6 3-1.8l.1-.5-.5-.1z" fill="#2496ed"/>
+  </g>
+  <text x="782" y="88" font-family="'Segoe UI',Arial,sans-serif" font-size="9" font-weight="700" fill="#2496ed" text-anchor="middle">Docker</text>
+
+  <!-- Row 2 Others -->
+  <!-- Postman -->
+  <rect x="636" y="98" width="52" height="52" rx="12" fill="#1e1e35"/>
+  <g transform="translate(648,108) scale(1.15)">
+    <circle cx="14" cy="14" r="12" fill="#ff6c37"/>
+    <path d="M18.5 9.5L12 16l-3-3" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <circle cx="19" cy="9" r="2.5" fill="white"/>
+  </g>
+  <text x="662" y="148" font-family="'Segoe UI',Arial,sans-serif" font-size="8" font-weight="700" fill="#ff6c37" text-anchor="middle">Postman</text>
+
+  <!-- Figma -->
+  <rect x="696" y="98" width="52" height="52" rx="12" fill="#1e1e35"/>
+  <g transform="translate(710,106) scale(1.0)">
+    <path d="M8 28c2.2 0 4-1.8 4-4v-4H8c-2.2 0-4 1.8-4 4s1.8 4 4 4z" fill="#0acf83"/>
+    <path d="M4 16c0-2.2 1.8-4 4-4h4v8H8c-2.2 0-4-1.8-4-4z" fill="#a259ff"/>
+    <path d="M4 8c0-2.2 1.8-4 4-4h4v8H8C5.8 12 4 10.2 4 8z" fill="#f24e1e"/>
+    <path d="M12 4h4c2.2 0 4 1.8 4 4s-1.8 4-4 4h-4V4z" fill="#ff7262"/>
+    <path d="M20 16c0 2.2-1.8 4-4 4s-4-1.8-4-4 1.8-4 4-4 4 1.8 4 4z" fill="#1abcfe"/>
+  </g>
+  <text x="722" y="148" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="700" fill="#f24e1e" text-anchor="middle">Figma</text>
+
+  <!-- VSCode -->
+  <rect x="756" y="98" width="52" height="52" rx="12" fill="#1e1e35"/>
+  <g transform="translate(768,108) scale(1.1)">
+    <path d="M25.4 3l-9.2 8.5L7 5.8 3 8l9 8-9 8 4 2.2 9.2-5.7 9.2 8.5 3-1.5V4.5L25.4 3z" fill="#007acc"/>
+    <path d="M25.4 7.2L14.6 16l10.8 8.8V7.2z" fill="#1f9cf0"/>
+    <path d="M3 8l9 8-9 8 1.2.7L13 16.7 4.2 7.3 3 8zM25.4 3l-9.2 8.5 1.5 1.4 7.7-7.1V3z" fill="#0065a9"/>
+  </g>
+  <text x="782" y="148" font-family="'Segoe UI',Arial,sans-serif" font-size="9" font-weight="700" fill="#007acc" text-anchor="middle">VSCode</text>
+
+  <!-- IntelliJ -->
+  <rect x="636" y="158" width="52" height="52" rx="12" fill="#1e1e35"/>
+  <g transform="translate(648,166) scale(1.15)">
+    <rect width="28" height="28" rx="4" fill="#fe315d"/>
+    <text x="14" y="19" font-family="Arial" font-size="11" font-weight="900" fill="white" text-anchor="middle">IJ</text>
+  </g>
+  <text x="662" y="208" font-family="'Segoe UI',Arial,sans-serif" font-size="8" font-weight="700" fill="#fe315d" text-anchor="middle">IntelliJ</text>
+
+</svg>
