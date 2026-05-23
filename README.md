@@ -60,8 +60,23 @@ public class Rebeca {
 ### Languages
 
 <div align="center">  
-  <img src="h
+  <img src="https://skillicons.dev/icons?i=java,spring,ts,cs,python,js,nodejs&perline=4" />
+</div>
 
+</td>
+
+<td valign="top" width="33%" style="padding: 0 0 0 16px;">
+
+### Others
+
+<div align="center">  
+  <img src="https://skillicons.dev/icons?i=git,github,docker,jenkins,postman,figma,vscode,idea,postgres&perline=4" />
+</div>
+
+</td>
+
+</tr>
+</table>
 
 ---
 
