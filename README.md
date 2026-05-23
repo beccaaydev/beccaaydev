@@ -42,35 +42,9 @@ public class Rebeca {
 
 <!--  TECH STACK  -->
 ### 🛠️ Tech Stack
-<table border="0" cellspacing="0" cellpadding="0" width="100%">
-<tr>
-
-<td valign="top" width="33%" align="left">
-
-### Frontend
-
-<img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap&perline=4" />
-
-</td>
-
-<td valign="top" width="33%" align="center">
-
-### Languages
-
-<img src="https://skillicons.dev/icons?i=java,spring,ts,cs,python,js,nodejs&perline=4" />
-
-</td>
-
-<td valign="top" width="33%" align="right">
-
-### Others
-
-<img src="https://skillicons.dev/icons?i=git,github,docker,jenkins,postman,figma,vscode,idea,postgres&perline=4" />
-
-</td>
-
-</tr>
-</table>
+ 
+<img src="./techstack.svg" width="100%" alt="Tech Stack"/>
+<br/>
 
 
 ---
