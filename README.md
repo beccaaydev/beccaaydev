@@ -41,7 +41,7 @@ public class Rebeca {
 ---
 
 <!--  TECH STACK  -->
-<table border="0" cellspacing="2" cellpadding="2" width="100%">
+<table border="0" cellspacing="10" cellpadding="10" width="100%">
 <tr>
 
 <td valign="top" width="33%" style="padding: 8 16px 0 0;">
