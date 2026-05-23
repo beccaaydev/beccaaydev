@@ -48,7 +48,7 @@ public class Rebeca {
 
 
 ### Frontend  
-<a href="https://github.com/euelisee">
+<a href="https://github.com/beccaaydev">
 <div align="center">  
   <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap&perline=4" />
 </div>
@@ -58,9 +58,9 @@ public class Rebeca {
 <td valign="top" width="33%">
 
 ### Languages  
-<a href="https://github.com/euelisee">
+<a href="https://github.com/beccaaydev">
 <div align="center">  
-  <img src="https://skillicons.dev/icons?i=java,spring,python,js,nodejs&perline=4" />
+  <img src="https://skillicons.dev/icons?i=java,spring,python,nodejs&perline=4" />
 </div>
 </a>
 
@@ -68,7 +68,7 @@ public class Rebeca {
 <td valign="top" width="33%">
 
 ### Others  
-<a href="https://github.com/euelisee">
+<a href="https://github.com/beccaaydev">
 <div align="center">  
   <img src="https://skillicons.dev/icons?i=git,github,docker,postman,figma,vscode,idea&perline=4" />
 </div>
