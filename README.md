@@ -5,18 +5,14 @@
 <br/>
 
 <!--  ABOUT  -->
-<table width="100%">
-<tr>
-<td width="55%" valign="top">
-
 ### 👩‍💻 About Me
 
 ```java
 public class Rebeca {
 
-  String name     = "Rebeca Ayres";
-  String role     = "Full-Stack Developer";
-  String location = "São Paulo, Brazil 🇧🇷";
+  String name        = "Rebeca Ayres";
+  String role        = "Full-Stack Developer";
+  String location    = "São Paulo, Brazil 🇧🇷";
   boolean openToWork = true;
 
   String[] stack = {
@@ -30,25 +26,28 @@ public class Rebeca {
 }
 ```
 
-</td>
-<td width="45%" valign="top">
+<br/>
 
-### 📊 Stats
+---
 
-![Stats](https://github-readme-stats.vercel.app/api?username=beccaaydev&show_icons=true&theme=tokyonight&border_radius=12&hide_border=false&border_color=a855f7&title_color=a855f7&icon_color=a855f7&bg_color=0f0f1a)
+<!--  STATS DASHBOARD  -->
+### 📊 GitHub Stats
 
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=beccaaydev&theme=tokyonight&border_radius=12&border=a855f7&ring=a855f7&fire=a855f7&currStreakLabel=a855f7&background=0f0f1a)
+<div align="center">
 
-</td>
-</tr>
-</table>
+<img src="./stats-card.svg" width="100%" alt="GitHub Stats Dashboard"/>
+
+<br/>
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=beccaaydev&show_icons=true&theme=tokyonight&border_radius=12&border_color=a855f7&title_color=a855f7&icon_color=a855f7&bg_color=0f0f1a&include_all_commits=true&count_private=true&hide_border=false)
+
+</div>
 
 <br/>
 
 ---
 
 <!--  TECH STACK  -->
-
 ### 🛠️ Tech Stack
 
 <table width="100%">
@@ -91,18 +90,7 @@ public class Rebeca {
 
 ---
 
-<!--  LANGUAGES  -->
-
-### 🌐 Most Used Languages
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=beccaaydev&layout=compact&langs_count=8&theme=tokyonight&border_radius=12&border_color=a855f7&title_color=a855f7&bg_color=0f0f1a)
-
-<br/>
-
----
-
 <!--  CONNECT  -->
-
 ### 📬 Let's Connect
 
 <div align="center">
