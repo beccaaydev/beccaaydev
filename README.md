@@ -42,6 +42,7 @@ public class Rebeca {
 
 <!--  TECH STACK  -->
 ### 🛠️ Tech Stack
+<div align="center">
 <table>
 <tr>
 <td valign="top" width="33%">
@@ -76,6 +77,7 @@ public class Rebeca {
 </td>
 </tr>
 </table>
+</div>
 
 
 ---
