@@ -41,11 +41,17 @@ public class Rebeca {
 ---
 
 <!--  TECH STACK  -->
-### 🛠️ Tech Stack
- 
-<img src="./techstack.svg" width="100%" alt="Tech Stack"/>
-<br/>
+<div align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap&perline=4" />
+</div>
 
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,ts,cs,python,js,nodejs&perline=4" />
+</div>
+
+<div align="right">
+  <img src="https://skillicons.dev/icons?i=git,github,docker,jenkins,postman,figma,vscode,idea,postgres&perline=4" />
+</div>
 
 ---
 
