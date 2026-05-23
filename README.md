@@ -42,42 +42,25 @@ public class Rebeca {
 
 <!--  TECH STACK  -->
 ### 🛠️ Tech Stack
-<div align="center">
-<table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td valign="top" width="33%">
 
-### Frontend  
-<a href="https://github.com/euelisee">
+<td valign="top" width="33%" style="padding: 0 16px 0 0;">
+
+### Frontend
+
 <div align="center">  
   <img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap&perline=4" />
 </div>
-</a>
 
 </td>
-<td valign="top" width="33%">
 
-### Languages  
-<a href="https://github.com/euelisee">
+<td valign="top" width="33%" style="padding: 0 16px;">
+
+### Languages
+
 <div align="center">  
-  <img src="https://skillicons.dev/icons?i=java,spring,ts,cs,python,js,nodejs&perline=4" />
-</div>
-</a>
-
-</td>
-<td valign="top" width="33%">
-
-### Others  
-<a href="https://github.com/euelisee">
-<div align="center">  
-  <img src="https://skillicons.dev/icons?i=git,github,docker,jenkins,postman,figma,vscode,idea,postgres&perline=4" />
-</div>
-</a>
-
-</td>
-</tr>
-</table>
-</div>
+  <img src="h
 
 
 ---
