@@ -41,9 +41,11 @@ public class Rebeca {
 ---
 
 <!--  TECH STACK  -->
-<table>
+<table border="0" cellspacing="2" cellpadding="2" width="100%">
 <tr>
-<td valign="top" width="33%">
+
+<td valign="top" width="33%" style="padding: 2 16px 0 0;">
+
 
 ### Frontend  
 <a href="https://github.com/euelisee">
