@@ -1,79 +1,109 @@
 <div align="center">
-
-<img src="./banner.svg" width="100%" alt="Rebeca Ayres — Back-end Developer"/>
-
+  <img src="./banner.svg" width="100%" alt="Rebeca Ayres — Full-Stack Developer"/>
 </div>
 
 <br/>
 
-## 🧑‍💻 About Me
+<!--  ABOUT  -->
+<table width="100%">
+<tr>
+<td width="55%" valign="top">
+
+### 👩‍💻 About Me
 
 ```java
-public class Becca {
+public class Rebeca {
 
-    String[] currentlyLearning = {"Java", "Spring Boot", "Python", "Docker"};
-    String   location          = "São Paulo, Brazil 🇧🇷";
-    String   focus             = "Full-Stack Development";
-    boolean  openToWork        = true;
+  String name     = "Rebeca Ayres";
+  String role     = "Full-Stack Developer";
+  String location = "São Paulo, Brazil 🇧🇷";
+  boolean openToWork = true;
 
-    String greeting() {
-        return "Let's build something awesome together! 🚀";
-    }
+  String[] stack = {
+    "Java", "Spring Boot",
+    "Python", "Oracle", "Docker"
+  };
+
+  String greet() {
+    return "Let's build! 🚀";
+  }
 }
 ```
+
+</td>
+<td width="45%" valign="top">
+
+### 📊 Stats
+
+![Stats](https://github-readme-stats.vercel.app/api?username=beccaaydev&show_icons=true&theme=tokyonight&border_radius=12&hide_border=false&border_color=a855f7&title_color=a855f7&icon_color=a855f7&bg_color=0f0f1a)
+
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=beccaaydev&theme=tokyonight&border_radius=12&border=a855f7&ring=a855f7&fire=a855f7&currStreakLabel=a855f7&background=0f0f1a)
+
+</td>
+</tr>
+</table>
 
 <br/>
 
 ---
 
+<!--  TECH STACK  -->
+
 ### 🛠️ Tech Stack
 
-### ☕ Back-end
-<p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-</p>
+<table width="100%">
+<tr>
 
-### 🗄️ Database
-<p>
-  <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PL%2FSQL-F80000?style=for-the-badge&logo=oracle&logoColor=white"/>
-</p>
+<td width="33%" valign="top" align="center">
 
-### 🐳 DevOps & Tools
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</p>
+**☕ Back-end**
 
----
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-### 📊 Estatísticas
+</td>
 
-<p>
-  <img 
-    align="left" 
-    alt="GitHub Stats" 
-    height="200" 
-    style="padding-right: 10px;" 
-    src="https://github-readme-stats.vercel.app/api?username=Beccaaydev&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
-  />
+<td width="33%" valign="top" align="center">
 
-<img 
-      align="left" 
-      alt="GitHub Stats" 
-      height="200" 
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=Beccaaydev&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" 
-  />
+**🗄️ Database**
 
-</p>
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![PLSQL](https://img.shields.io/badge/PL%2FSQL-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+
+</td>
+
+<td width="33%" valign="top" align="center">
+
+**🐳 DevOps & Tools**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+</td>
+
+</tr>
+</table>
+
+<br/>
 
 ---
 
-## 📬 Let's Connect
+<!--  LANGUAGES  -->
+
+### 🌐 Most Used Languages
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=beccaaydev&layout=compact&langs_count=8&theme=tokyonight&border_radius=12&border_color=a855f7&title_color=a855f7&bg_color=0f0f1a)
+
+<br/>
+
+---
+
+<!--  CONNECT  -->
+
+### 📬 Let's Connect
 
 <div align="center">
 
@@ -83,14 +113,12 @@ public class Becca {
 
 </div>
 
+<br/>
+
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=beccaaydev&color=FF2D78&style=for-the-badge&label=Profile+Views"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <sub>Made with ❤️ by Becca</sub>
+  <img src="https://komarev.com/ghpvc/?username=beccaaydev&color=a855f7&style=for-the-badge&label=Profile+Views"/>
+  <br/><br/>
+  <sub>Made with 💜 by Rebeca Ayres</sub>
 </div>
