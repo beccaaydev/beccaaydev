@@ -42,21 +42,37 @@ public class Rebeca {
 
 <!--  TECH STACK  -->
 ### 🛠️ Tech Stack
-
-<table width="100%">
-<tr>
-
-<td width="33%" valign="top" align="center">
-
-**☕ Back-end**
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+### Frontend  
+<a href="https://github.com/euelisee">
+<div align="center">  
+  <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap&perline=4" />
+</div>
+</a>
 
 </td>
+<td valign="top" width="33%">
 
-<td width="33%" valign="top" align="center">
+### Languages  
+<a href="https://github.com/euelisee">
+<div align="center">  
+  <img src="https://skillicons.dev/icons?i=java,spring,python,js,nodejs&perline=4" />
+</div>
+</a>
+
+</td>
+<td valign="top" width="33%">
+
+### Others  
+<a href="https://github.com/euelisee">
+<div align="center">  
+  <img src="https://skillicons.dev/icons?i=git,github,docker,postman,figma,vscode,idea&perline=4" />
+</div>
+</a>
+
+</td>
+</tr>
+</table>
+
 
 **🗄️ Database**
 
