@@ -83,7 +83,7 @@
 
   <rect x="656" y="136" width="182" height="64" rx="10" fill="#1a1a2e" stroke="#7c3aed30" stroke-width="1"/>
   <text x="674" y="158" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#8b8ba8" letter-spacing="1.5">TECHNOLOGIES</text>
-  <text x="674" y="186" font-family="'Segoe UI',Arial,sans-serif" font-size="28" font-weight="700" fill="#ffffff">5+</text>
+  <text x="674" y="186" font-family="'Segoe UI',Arial,sans-serif" font-size="28" font-weight="700" fill="#ffffff">4+</text>
   <circle class="dot2" cx="822" cy="152" r="5" filter="url(#glow)"/>
 
   <!-- Bottom border -->
