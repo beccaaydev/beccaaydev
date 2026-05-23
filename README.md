@@ -32,17 +32,10 @@ public class Rebeca {
 
 <!--  STATS DASHBOARD  -->
 ### 📊 GitHub Stats
-
+ 
 <div align="center">
-
 <img src="./stats-card.svg" width="100%" alt="GitHub Stats Dashboard"/>
-
-<br/>
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=beccaaydev&show_icons=true&theme=tokyonight&border_radius=12&border_color=a855f7&title_color=a855f7&icon_color=a855f7&bg_color=0f0f1a&include_all_commits=true&count_private=true&hide_border=false)
-
 </div>
-
 <br/>
 
 ---
