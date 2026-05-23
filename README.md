@@ -41,6 +41,7 @@ public class Rebeca {
 ---
 
 <!--  TECH STACK  -->
+### Frontend  
 <div align="left">
   <img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap&perline=4" />
 </div>
