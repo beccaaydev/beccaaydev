@@ -35,10 +35,11 @@ public class Rebeca {
 
 <div align="center">
 
+<img src="./stats-card.svg" width="100%" alt="GitHub Stats Dashboard"/>
 
 <br/>
 
-![Estatísticas](https://github-readme-stats.vercel.app/api?username=beccaaydev&show_icons=true&theme=tokyonight&border_radius=12&border_color=a855f7&title_color=a855f7&icon_color=a855f7&bg_color=0f0f1a&include_all_commits=true&count_private=true&hide_border=false)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=beccaaydev&show_icons=true&theme=tokyonight&border_radius=12&border_color=a855f7&title_color=a855f7&icon_color=a855f7&bg_color=0f0f1a&include_all_commits=true&count_private=true&hide_border=false)
 
 </div>
 
@@ -68,6 +69,8 @@ public class Rebeca {
 
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 ![PLSQL](https://img.shields.io/badge/PL%2FSQL-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![DBEAVER](https://img.shields.io/badge/PL%2FSQL-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+
 
 </td>
 
