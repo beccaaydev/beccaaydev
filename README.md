@@ -1,9 +1,6 @@
 <div align="center">
 
-# Hey, I'm Becca! 👋
-### Back-end Developer | Java · Spring Boot · Python
-
-![divider](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
+<img src="./banner.svg" width="100%" alt="Rebeca Ayres — Back-end Developer"/>
 
 </div>
 
@@ -16,7 +13,7 @@ public class Becca {
 
     String[] currentlyLearning = {"Java", "Spring Boot", "Python", "Docker"};
     String   location          = "São Paulo, Brazil 🇧🇷";
-    String   focus             = "Back-end Development";
+    String   focus             = "Full-Stack Development";
     boolean  openToWork        = true;
 
     String greeting() {
@@ -29,7 +26,7 @@ public class Becca {
 
 ---
 
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 ### ☕ Back-end
 <p>
