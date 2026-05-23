@@ -76,7 +76,7 @@
   <!-- Right mini cards -->
   <rect x="656" y="56" width="182" height="64" rx="10" fill="#1a1a2e" stroke="#a855f730" stroke-width="1"/>
   <text x="674" y="78" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#8b8ba8" letter-spacing="1.5">PROJECTS</text>
-  <text x="674" y="106" font-family="'Segoe UI',Arial,sans-serif" font-size="28" font-weight="700" fill="#ffffff">10+</text>
+  <text x="674" y="106" font-family="'Segoe UI',Arial,sans-serif" font-size="28" font-weight="700" fill="#ffffff">5+</text>
   <circle class="dot" cx="822" cy="72" r="5" filter="url(#glow)"/>
 
   <line class="dashed" x1="747" y1="120" x2="747" y2="134" fill="none"/>
