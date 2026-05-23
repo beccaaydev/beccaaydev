@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 200" width="860" height="200">
+  <defs>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   style="stop-color:#a855f7"/>
+      <stop offset="40%"  style="stop-color:#7c3aed"/>
+      <stop offset="70%"  style="stop-color:#4f46e5"/>
+      <stop offset="100%" style="stop-color:#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="barGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   style="stop-color:#f97316"/>
+      <stop offset="60%"  style="stop-color:#a855f7"/>
+      <stop offset="100%" style="stop-color:#0ea5e9"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .val { animation: countUp 1.5s ease forwards; }
+      @keyframes countUp { from{opacity:0} to{opacity:1} }
+    </style>
+  </defs>
+
+  <!-- BG -->
+  <rect width="860" height="200" fill="#0f0f1a" rx="14"/>
+
+  <!-- LEFT CARD — GitHub Stats -->
+  <rect x="12" y="12" width="420" height="176" rx="12" fill="#16162a" stroke="#a855f730" stroke-width="1"/>
+  <text x="30" y="40" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">📈  GitHub Statistics</text>
+  <line x1="30" y1="48" x2="416" y2="48" stroke="#a855f720" stroke-width="1"/>
+
+  <!-- Stat rows -->
+  <!-- Stars -->
+  <text x="30"  y="74" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b8ba8">⭐  Total de estrelas</text>
+  <text x="410" y="74" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#a855f7" font-weight="600" text-anchor="end" class="val">—</text>
+
+  <!-- Commits -->
+  <text x="30"  y="100" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b8ba8">🔄  Total de Commits</text>
+  <text x="410" y="100" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#a855f7" font-weight="600" text-anchor="end" class="val">—</text>
+
+  <!-- PRs -->
+  <text x="30"  y="126" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b8ba8">🔀  Total de PRs</text>
+  <text x="410" y="126" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#a855f7" font-weight="600" text-anchor="end" class="val">—</text>
+
+  <!-- Issues -->
+  <text x="30"  y="152" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b8ba8">⚠️  Total de Issues</text>
+  <text x="410" y="152" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#a855f7" font-weight="600" text-anchor="end" class="val">—</text>
+
+  <!-- Repos -->
+  <text x="30"  y="178" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b8ba8">📁  Repositórios públicos</text>
+  <text x="410" y="178" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#a855f7" font-weight="600" text-anchor="end" class="val">—</text>
+
+  <!-- RIGHT CARD — Languages -->
+  <rect x="444" y="12" width="404" height="176" rx="12" fill="#16162a" stroke="#7c3aed30" stroke-width="1"/>
+  <text x="462" y="40" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">💻  Tecnologias</text>
+  <line x1="462" y1="48" x2="832" y2="48" stroke="#a855f720" stroke-width="1"/>
+
+  <!-- Color bar -->
+  <rect x="462" y="60" width="366" height="10" rx="5" fill="#1e1e35"/>
+  <rect x="462" y="60" width="185" height="10" rx="5" fill="#f97316"/>
+  <rect x="647" y="60" width="80"  height="10" rx="2" fill="#a855f7"/>
+  <rect x="727" y="60" width="60"  height="10" rx="2" fill="#4f46e5"/>
+  <rect x="787" y="60" width="41"  height="10" rx="5" fill="#0ea5e9"/>
+
+  <!-- Lang legend col 1 -->
+  <circle cx="470" cy="92"  r="5" fill="#f97316"/>
+  <text x="482" y="96"  font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">Java</text>
+
+  <circle cx="470" cy="116" r="5" fill="#a855f7"/>
+  <text x="482" y="120" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">Python</text>
+
+  <circle cx="470" cy="140" r="5" fill="#4f46e5"/>
+  <text x="482" y="144" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">HTML</text>
+
+  <circle cx="470" cy="164" r="5" fill="#0ea5e9"/>
+  <text x="482" y="168" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">CSS</text>
+
+  <!-- Lang legend col 2 -->
+  <circle cx="630" cy="92"  r="5" fill="#22c55e"/>
+  <text x="642" y="96"  font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">JavaScript</text>
+
+  <circle cx="630" cy="116" r="5" fill="#eab308"/>
+  <text x="642" y="120" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">SQL / PLSQL</text>
+
+  <circle cx="630" cy="140" r="5" fill="#ec4899"/>
+  <text x="642" y="144" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">TypeScript</text>
+
+  <circle cx="630" cy="164" r="5" fill="#64748b"/>
+  <text x="642" y="168" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">Other</text>
+
+  <!-- Note -->
+  <text x="430" y="198" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#a855f740" text-anchor="middle">stats updated automatically via github-readme-stats</text>
+</svg>
