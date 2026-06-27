@@ -34,9 +34,25 @@ public class Rebeca {
 ### 📊 GitHub Stats
  
 <div align="center">
-<img src="./stats-card.svg" width="100%" alt="GitHub Stats Dashboard"/>
+
+  <table border="0" cellspacing="0" cellpadding="10">
+    <tr>
+      <td>
+        <img
+          src="https://github-readme-stats.vercel.app/api?username=beccaaydev&show_icons=true&count_private=true&include_all_commits=true&bg_color=0b0919&title_color=a78bfa&text_color=ddd8f5&icon_color=7c3aed&border_color=2a2050&custom_title=GitHub%20Statistics&hide_border=false&rank_icon=github"
+          alt="GitHub Stats"
+        />
+      </td>
+      <td>
+        <img
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=beccaaydev&layout=compact&langs_count=8&bg_color=0b0919&title_color=a78bfa&text_color=ddd8f5&border_color=2a2050&custom_title=Tecnologias&hide_border=false"
+          alt="Top Languages"
+        />
+      </td>
+    </tr>
+  </table>
+
 </div>
-<br/>
 
 ---
 
