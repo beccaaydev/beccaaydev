@@ -1,91 +1,261 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260">
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#ffffff"/>
-      <stop offset="55%" style="stop-color:#ffffff"/>
-      <stop offset="100%" style="stop-color:#a855f7"/>
+
+    <!-- Gradiente do nome -->
+    <linearGradient id="ng" gradientUnits="userSpaceOnUse" x1="44" y1="0" x2="430" y2="0">
+      <stop offset="0%"   stop-color="#ffffff"/>
+      <stop offset="35%"  stop-color="#ddd6fe"/>
+      <stop offset="70%"  stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#a855f7"/>
     </linearGradient>
-    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:0"/>
-      <stop offset="30%" style="stop-color:#a855f7;stop-opacity:1"/>
-      <stop offset="70%" style="stop-color:#7c3aed;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0"/>
+
+    <!-- Linha do topo -->
+    <linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="30%"  stop-color="#8b5cf6" stop-opacity="0.7"/>
+      <stop offset="50%"  stop-color="#c084fc" stop-opacity="0.9"/>
+      <stop offset="70%"  stop-color="#8b5cf6" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e1e35"/>
-      <stop offset="100%" style="stop-color:#13131f"/>
+
+    <!-- Divisor vertical -->
+    <linearGradient id="vg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#8b5cf6" stop-opacity="0.4"/>
+      <stop offset="80%"  stop-color="#8b5cf6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <style>
-      .status-dot { fill: #22c55e; animation: blink 2s ease-in-out infinite; }
-      .dot  { fill: #a855f7; animation: pulse 2s ease-in-out infinite; }
-      .dot2 { fill: #7c3aed; animation: pulse 2s ease-in-out infinite 0.5s; }
-      .dashed { stroke: #a855f740; stroke-width:1; stroke-dasharray:4 4; animation: dash 2s linear infinite; }
-      @keyframes blink  { 0%,100%{opacity:1} 50%{opacity:0.3} }
-      @keyframes pulse  { 0%,100%{opacity:1} 50%{opacity:0.4} }
-      @keyframes dash   { to{stroke-dashoffset:-20} }
-    </style>
+
+    <!-- Acento dos stat boxes -->
+    <linearGradient id="sg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#c084fc" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#c084fc" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Scan line -->
+    <linearGradient id="scg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="45%"  stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#c084fc" stop-opacity="0.55"/>
+      <stop offset="55%"  stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Padrão de pontos -->
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#8b5cf6" fill-opacity="0.22"/>
+    </pattern>
+
   </defs>
 
-  <!-- BG -->
-  <rect width="900" height="260" fill="#0f0f1a" rx="16"/>
-  <!-- Glow blobs -->
-  <ellipse cx="200" cy="110" rx="220" ry="130" fill="#a855f7" opacity="0.04"/>
-  <ellipse cx="730" cy="140" rx="180" ry="110" fill="#7c3aed" opacity="0.05"/>
-  <!-- Main card -->
-  <rect x="28" y="22" width="844" height="216" fill="url(#cardGrad)" rx="14" opacity="0.65"/>
-  <!-- Top border -->
-  <rect x="28" y="22" width="844" height="2" fill="url(#accentLine)" rx="1"/>
+  <style>
+    /* ── SCAN LINE ── */
+    .scan {
+      animation: scan 7s linear infinite;
+    }
+    @keyframes scan {
+      0%   { transform: translateY(0);     opacity: 0; }
+      4%   { opacity: 1; }
+      96%  { opacity: 1; }
+      100% { transform: translateY(282px); opacity: 0; }
+    }
 
-  <!-- Corner brackets -->
-  <polyline points="50,42 36,42 36,56"   fill="none" stroke="#a855f750" stroke-width="1.5"/>
-  <polyline points="850,42 864,42 864,56" fill="none" stroke="#a855f750" stroke-width="1.5"/>
-  <polyline points="50,218 36,218 36,204"  fill="none" stroke="#a855f750" stroke-width="1.5"/>
-  <polyline points="850,218 864,218 864,204" fill="none" stroke="#a855f750" stroke-width="1.5"/>
+    /* ── BRILHO AMBIENTE ── */
+    .glow {
+      animation: breathe 5s ease-in-out infinite;
+    }
+    @keyframes breathe {
+      0%, 100% { opacity: 1; }
+      50%      { opacity: 0.4; }
+    }
 
-  <!-- Status -->
-  <circle class="status-dot" cx="58" cy="50" r="4" filter="url(#glow)"/>
-  <text x="70" y="55" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#22c55e" letter-spacing="1">AVAILABLE FOR WORK</text>
-  <text x="856" y="55" font-family="'Courier New',monospace" font-size="11" fill="#a855f760" text-anchor="end">v2025.1.0</text>
+    /* ── LINHA DO TOPO ── */
+    .top-line {
+      animation: topShimmer 4s ease-in-out infinite;
+    }
+    @keyframes topShimmer {
+      0%, 100% { opacity: 0.75; }
+      50%      { opacity: 1; }
+    }
 
-  <!-- Name -->
-  <text x="58" y="138" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="54" font-weight="800" letter-spacing="-1" fill="url(#nameGrad)">Rebeca Ayres</text>
+    /* ── CANTONEIRAS ── */
+    .corners {
+      animation: cornerPulse 6s ease-in-out infinite;
+    }
+    @keyframes cornerPulse {
+      0%, 100% { opacity: 0.65; }
+      50%      { opacity: 0.2; }
+    }
 
-  <!-- Divider -->
-  <line x1="58" y1="152" x2="570" y2="152" stroke="url(#accentLine)" stroke-width="1"/>
+    /* ── DOT "AVAILABLE" ── */
+    .dot-fill {
+      animation: dotFill 2.2s ease-in-out infinite;
+    }
+    @keyframes dotFill {
+      0%, 100% { opacity: 1; }
+      50%      { opacity: 0.3; }
+    }
 
-  <!-- Subtitle -->
-  <text x="60" y="174" font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#8b8ba8" letter-spacing="2.5">FULL-STACK DEVELOPER</text>
+    /* ── NOME (fade in) ── */
+    .name-g {
+      animation: fadeIn 0.9s ease 0.1s both;
+    }
 
-  <!-- Tech tags -->
-  <rect x="58"  y="186" width="50"  height="20" rx="6" fill="#a855f715"/>
-  <rect x="116" y="186" width="66"  height="20" rx="6" fill="#a855f715"/>
-  <rect x="190" y="186" width="54"  height="20" rx="6" fill="#a855f715"/>
-  <rect x="252" y="186" width="52"  height="20" rx="6" fill="#7c3aed15"/>
-  <rect x="312" y="186" width="56"  height="20" rx="6" fill="#7c3aed15"/>
+    /* ── TÍTULO ── */
+    .title-t {
+      animation: fadeIn 0.9s ease 0.4s both;
+    }
 
-  <text x="68"  y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#a855f7">Java</text>
-  <text x="126" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#a855f7">Spring</text>
-  <text x="200" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#a855f7">Python</text>
-  <text x="262" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#9b6dff">Docker</text>
-  <text x="322" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#9b6dff">Oracle</text>
+    /* ── PILLS (cascata) ── */
+    .pg { animation: pillIn 0.5s ease both; }
+    .p1 { animation-delay: 0.5s; }
+    .p2 { animation-delay: 0.7s; }
+    .p3 { animation-delay: 0.9s; }
+    .p4 { animation-delay: 1.1s; }
+    .p5 { animation-delay: 1.3s; }
+    .p6 { animation-delay: 1.5s; }
+    @keyframes pillIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
 
-  <!-- Right mini cards -->
-  <rect x="656" y="56" width="182" height="64" rx="10" fill="#1a1a2e" stroke="#a855f730" stroke-width="1"/>
-  <text x="674" y="78" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#8b8ba8" letter-spacing="1.5">PROJECTS</text>
-  <text x="674" y="106" font-family="'Segoe UI',Arial,sans-serif" font-size="28" font-weight="700" fill="#ffffff">5+</text>
-  <circle class="dot" cx="822" cy="72" r="5" filter="url(#glow)"/>
+    /* ── STATS (slide de cima) ── */
+    .sn { animation: statIn 0.7s ease both; }
+    .s1 { animation-delay: 0.7s; }
+    .s2 { animation-delay: 1.0s; }
+    @keyframes statIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
 
-  <line class="dashed" x1="747" y1="120" x2="747" y2="134" fill="none"/>
+    /* ── FADE GENÉRICO ── */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+  </style>
 
-  <rect x="656" y="136" width="182" height="64" rx="10" fill="#1a1a2e" stroke="#7c3aed30" stroke-width="1"/>
-  <text x="674" y="158" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#8b8ba8" letter-spacing="1.5">TECHNOLOGIES</text>
-  <text x="674" y="186" font-family="'Segoe UI',Arial,sans-serif" font-size="28" font-weight="700" fill="#ffffff">4+</text>
-  <circle class="dot2" cx="822" cy="152" r="5" filter="url(#glow)"/>
+  <!-- ── FUNDO ── -->
+  <rect width="900" height="280" fill="#07071a"/>
+  <rect width="900" height="280" fill="url(#dots)"/>
 
-  <!-- Bottom border -->
-  <rect x="28" y="236" width="844" height="1" fill="url(#accentLine)" rx="1" opacity="0.4"/>
+  <!-- Brilho ambiente (respira) -->
+  <ellipse class="glow" cx="840" cy="-50" rx="280" ry="210" fill="#8b5cf6" fill-opacity="0.09"/>
+
+  <!-- Borda -->
+  <rect width="900" height="280" fill="none" stroke="#8b5cf6" stroke-opacity="0.22" stroke-width="1"/>
+
+  <!-- Linha acento topo (shimmer) -->
+  <rect class="top-line" x="0" y="0" width="900" height="1.5" fill="url(#tg)"/>
+
+  <!-- Scan line (desce em loop) -->
+  <rect class="scan" x="0" y="0" width="900" height="1.5" fill="url(#scg)"/>
+
+  <!-- ── CANTONEIRAS ── -->
+  <g class="corners">
+    <path d="M12 27 L12 12 L27 12"    fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="square"/>
+    <path d="M873 12 L888 12 L888 27"  fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="square"/>
+    <path d="M12 253 L12 268 L27 268"  fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="square"/>
+    <path d="M873 268 L888 268 L888 253" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="square"/>
+  </g>
+
+  <!-- ── INDICADOR "AVAILABLE" ── -->
+  <!-- Anel radar (SMIL — mais compatível para animar 'r') -->
+  <circle cx="44" cy="52" r="3.5" fill="none" stroke="#34d399" stroke-opacity="0.6">
+    <animate attributeName="r"              values="3.5;15"  dur="2.2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.6;0"   dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Dot preenchido (pisca via CSS) -->
+  <circle class="dot-fill" cx="44" cy="52" r="3.5" fill="#34d399"/>
+  <text x="57" y="57"
+    font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+    font-size="10" font-weight="500" fill="#34d399" letter-spacing="3.5">AVAILABLE FOR WORK</text>
+
+  <!-- ── NOME ── -->
+  <g class="name-g">
+    <text x="44" y="117"
+      font-family="'Segoe UI','Helvetica Neue','Arial Black',Arial,sans-serif"
+      font-size="46" font-weight="900" fill="url(#ng)" letter-spacing="-0.5">Rebeca Ayres</text>
+  </g>
+
+  <!-- ── CARGO ── -->
+  <text class="title-t" x="44" y="143"
+    font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+    font-size="10.5" font-weight="300" fill="#c084fc" fill-opacity="0.6" letter-spacing="5">SOFTWARE DEVELOPER</text>
+
+  <!-- ── PILLS (cada uma aparece em cascata) ── -->
+  <g class="pg p1">
+    <rect x="44" y="163" width="52" height="23" rx="11.5"
+      fill="#8b5cf6" fill-opacity="0.1" stroke="#a78bfa" stroke-opacity="0.32" stroke-width="1"/>
+    <text x="70" y="179" text-anchor="middle"
+      font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="500"
+      fill="#ddc4ff" fill-opacity="0.88">Java</text>
+  </g>
+  <g class="pg p2">
+    <rect x="103" y="163" width="60" height="23" rx="11.5"
+      fill="#8b5cf6" fill-opacity="0.1" stroke="#a78bfa" stroke-opacity="0.32" stroke-width="1"/>
+    <text x="133" y="179" text-anchor="middle"
+      font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="500"
+      fill="#ddc4ff" fill-opacity="0.88">Spring</text>
+  </g>
+  <g class="pg p3">
+    <rect x="170" y="163" width="62" height="23" rx="11.5"
+      fill="#8b5cf6" fill-opacity="0.1" stroke="#a78bfa" stroke-opacity="0.32" stroke-width="1"/>
+    <text x="201" y="179" text-anchor="middle"
+      font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="500"
+      fill="#ddc4ff" fill-opacity="0.88">Python</text>
+  </g>
+  <g class="pg p4">
+    <rect x="239" y="163" width="62" height="23" rx="11.5"
+      fill="#8b5cf6" fill-opacity="0.1" stroke="#a78bfa" stroke-opacity="0.32" stroke-width="1"/>
+    <text x="270" y="179" text-anchor="middle"
+      font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="500"
+      fill="#ddc4ff" fill-opacity="0.88">Docker</text>
+  </g>
+  <g class="pg p5">
+    <rect x="308" y="163" width="62" height="23" rx="11.5"
+      fill="#8b5cf6" fill-opacity="0.1" stroke="#a78bfa" stroke-opacity="0.32" stroke-width="1"/>
+    <text x="339" y="179" text-anchor="middle"
+      font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="500"
+      fill="#ddc4ff" fill-opacity="0.88">Oracle</text>
+  </g>
+  <g class="pg p6">
+    <rect x="377" y="163" width="46" height="23" rx="11.5"
+      fill="#8b5cf6" fill-opacity="0.1" stroke="#a78bfa" stroke-opacity="0.32" stroke-width="1"/>
+    <text x="400" y="179" text-anchor="middle"
+      font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="500"
+      fill="#ddc4ff" fill-opacity="0.88">SQL</text>
+  </g>
+
+  <!-- ── DIVISOR VERTICAL ── -->
+  <rect x="710" y="55" width="1" height="170" fill="url(#vg)"/>
+
+  <!-- ── STAT BOX 1: REPOSITÓRIOS ── -->
+  <rect x="726" y="60" width="148" height="74"
+    fill="#8b5cf6" fill-opacity="0.06" stroke="#8b5cf6" stroke-opacity="0.28" stroke-width="1"/>
+  <rect x="755" y="60" width="90" height="1" fill="url(#sg)"/>
+  <!--
+    ╔══════════════════════════════════════╗
+    ║  ATUALIZE ESTE NÚMERO com seus repos ║
+    ╚══════════════════════════════════════╝
+  -->
+  <text class="sn s1" x="800" y="106" text-anchor="middle"
+    font-family="'Courier New','Segoe UI',monospace"
+    font-size="30" font-weight="700" fill="#c084fc" letter-spacing="-1">5</text>
+  <text x="800" y="123" text-anchor="middle"
+    font-family="'Segoe UI',Arial,sans-serif"
+    font-size="8.5" font-weight="400" fill="#c084fc" fill-opacity="0.38" letter-spacing="2.5">REPOSITÓRIOS</text>
+
+  <!-- ── STAT BOX 2: TECNOLOGIAS ── -->
+  <rect x="726" y="146" width="148" height="74"
+    fill="#8b5cf6" fill-opacity="0.06" stroke="#8b5cf6" stroke-opacity="0.28" stroke-width="1"/>
+  <rect x="755" y="146" width="90" height="1" fill="url(#sg)"/>
+  <text class="sn s2" x="800" y="192" text-anchor="middle"
+    font-family="'Courier New','Segoe UI',monospace"
+    font-size="30" font-weight="700" fill="#c084fc" letter-spacing="-1">6</text>
+  <text x="800" y="209" text-anchor="middle"
+    font-family="'Segoe UI',Arial,sans-serif"
+    font-size="8.5" font-weight="400" fill="#c084fc" fill-opacity="0.38" letter-spacing="2.5">TECNOLOGIAS</text>
+
 </svg>
