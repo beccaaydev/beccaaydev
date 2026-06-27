@@ -1,7 +1,5 @@
 <div align="center">
-  <img src="./banner.svg" width="100%" alt="Rebeca Ayres — Full-Stack Developer"/>
-</div>
-
+  <img src="./banner-animated.svg" alt="Banner" width="100%"/></div>
 <br/>
 
 <!--  ABOUT  -->
